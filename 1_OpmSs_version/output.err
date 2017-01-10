@@ -1,0 +1,97 @@
+remove impi/4.1.3.049 (PATH, MANPATH, LD_LIBRARY_PATH)
+remove ompss/stable (PATH)
+Cannot determine MPI implementation loaded. Using OPENMPI as default.
+remove EXTRAE/latest (PATH, LD_LIBRARY_PATH, C_INCLUDE_PATH)
+remove SPECTRAL/latest (PATH, LD_LIBRARY_PATH, C_INCLUDE_PATH)
+load SPECTRAL/latest (PATH, LD_LIBRARY_PATH, C_INCLUDE_PATH)
+remove PARAVER/latest (PATH)
+load impi/4.1.3.049 (PATH, MANPATH, LD_LIBRARY_PATH)
+load ompss/stable (PATH): OmpSs 16.06.3 - nanox 0.10.3, mcxx 2.0.0
+load EXTRAE/latest (PATH, LD_LIBRARY_PATH, C_INCLUDE_PATH)
+WARNING: [?]Using OMP_NUM_THREADS in an OmpSs applications is discouraged, the recommended way to set the number of worker smp threads is using the flag --smp-workers.
+Extrae: Error! Hardware counter PAPI_BR_MSP (0x8000002e) cannot be added in set 1 (thread 0)
+MSG: [?] ========== Nanos++ Initial Environment Summary ==========
+MSG: [?] === PID:                 30215
+MSG: [?] === Num. worker threads: 16
+MSG: [?] === System CPUs:         active[ 0-15 ] - inactive[  ]
+MSG: [?] === Binding:             true
+MSG: [?] === Prog. Model:         OmpSs
+MSG: [?] === Priorities:          Not needed / disabled
+MSG: [?] === Plugin:              SMP PE Plugin
+MSG: [?] ===  | PEs:              16
+MSG: [?] ===  | Worker Threads:   16
+MSG: [?] === Plugin:              OpenCL PE Plugin
+MSG: [?] ===  | PEs:              0
+MSG: [?] ===  | Worker Threads:   0
+MSG: [?] =========================================================
+
+Frecuencias parseadas (total 1 frecuencias)
+     2.60 Hz
+
+Stack(i) vale is 15
+Local domain size is 19762688 bytes (0.018405 GB)
+stacki value is 15.                			 							 forward propagation steps: 65      										 backward propagation steps: 65
+Processing 0-th gradient iteration.
+Folder created Results/shot.00000
+Storing parameters for shot 0 into Results/shotparams_00000.dat
+Storing parameters for shot 0 into Results/shotparams_00000.dat
+Length of local arrays is 123904 cells
+ptr size = 495616 bytes (123904 elements)
+Warning: We are not doing any IO here (write_snapshot)
+Warning: We are not doing any IO here (write_snapshot)
+Warning: We are not doing any IO here (write_snapshot)
+Warning: We are not doing any IO here (write_snapshot)
+Warning: We are not doing any IO here (write_snapshot)
+Forward propagation finished in 0.705474 seconds
+Warning: We are not doing any IO here (read_snapshot)
+Warning: We are not doing any IO here (read_snapshot)
+Warning: We are not doing any IO here (read_snapshot)
+Warning: We are not doing any IO here (read_snapshot)
+Warning: We are not doing any IO here (read_snapshot)
+Backward propagation finished in 0.682142 seconds
+Warning: we are not doing any IO here (kernel)
+Shot memory free'd
+       0-th shot processed
+Folder created Results/shot.00001
+Storing parameters for shot 1 into Results/shotparams_00001.dat
+Storing parameters for shot 1 into Results/shotparams_00001.dat
+Length of local arrays is 123904 cells
+ptr size = 495616 bytes (123904 elements)
+Warning: We are not doing any IO here (write_snapshot)
+Warning: We are not doing any IO here (write_snapshot)
+Warning: We are not doing any IO here (write_snapshot)
+Warning: We are not doing any IO here (write_snapshot)
+Warning: We are not doing any IO here (write_snapshot)
+Forward propagation finished in 0.714075 seconds
+Warning: We are not doing any IO here (read_snapshot)
+Warning: We are not doing any IO here (read_snapshot)
+Warning: We are not doing any IO here (read_snapshot)
+Warning: We are not doing any IO here (read_snapshot)
+Warning: We are not doing any IO here (read_snapshot)
+Backward propagation finished in 0.666168 seconds
+Warning: we are not doing any IO here (kernel)
+Shot memory free'd
+       1-th shot processed
+Warning: we are not doing any IO here (gather_shots)
+Processing 0-th test iteration.
+Folder created Results/shot.00000
+Storing parameters for shot 0 into Results/shotparams_00000.dat
+Storing parameters for shot 0 into Results/shotparams_00000.dat
+Length of local arrays is 123904 cells
+ptr size = 495616 bytes (123904 elements)
+Forward Modelling finished in 0.681510 seconds
+Shot memory free'd
+       0-th shot processed
+Folder created Results/shot.00001
+Storing parameters for shot 1 into Results/shotparams_00001.dat
+Storing parameters for shot 1 into Results/shotparams_00001.dat
+Length of local arrays is 123904 cells
+ptr size = 495616 bytes (123904 elements)
+Forward Modelling finished in 0.878931 seconds
+Shot memory free'd
+       1-th shot processed
+-------- FWI program Finished ------------------- 
+MSG: [?] ============ Nanos++ Final Execution Summary ============
+MSG: [?] === Application ended in 176 seconds
+MSG: [?] === 299520 tasks have been executed
+MSG: [?] =========================================================
